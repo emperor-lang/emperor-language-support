@@ -37,5 +37,6 @@
     "indentationRules": {
         "increaseIndentPattern": ":",
         "decreaseIndentPattern": "#"
-    }
+    },
+    "autoCloseBefore": "#+/%*<&|!^;:.,=}])> \n\t"
 }
