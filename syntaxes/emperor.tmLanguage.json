@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#constants"
 		},
 		{
@@ -45,6 +48,15 @@
 					"name": "storage.type.emperor",
 					"match": "\\b(int|char|bool|string|real|Any)\\b",
 					"comment": "Getting () to work?"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash",
+					"begin": "//",
+					"end": "\\n"
 				}
 			]
 		},
