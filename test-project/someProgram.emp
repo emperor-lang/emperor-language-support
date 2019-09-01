@@ -2,6 +2,8 @@ module asdf
 
 import <std> (print)
 
+/* A comment on many lines */
+
 main :: int
 main:
 	int x = 1
@@ -10,11 +12,9 @@ main:
 		@print("This is looping forever!")
 	#
 	bool t = false
-	bool x = true ^ false
 	@print("x\n")
 	@print(s)
 	char s = 's';
-	return a != b
 	return x
 #
 
