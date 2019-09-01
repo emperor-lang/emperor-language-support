@@ -60,7 +60,12 @@
 				{
 					"name": "comment.line.double-slash",
 					"begin": "//",
-					"end": "\\n"
+					"end": "\n"
+				},
+				{
+					"name": "comment.block",
+					"begin": "/\\*",
+					"end": "\\*/"
 				}
 			]
 		},
