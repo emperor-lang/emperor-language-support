@@ -125,7 +125,7 @@
 		},
 		"chars": {
 			"name": "string.quoted.single.emperor",
-			"match": "\\b'((\\\\)|([^'\\\\])|(\\\\.))'\\b",
+			"match": "'((\\\\)|([^'\\\\])|(\\\\.))'",
 			"captures": {
 				"2": {
 					"patterns": [
