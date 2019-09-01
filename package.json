@@ -31,5 +31,6 @@
                 "path": "./syntaxes/emperor.tmLanguage.json"
             }
         ]
-    }
+    },
+    "icon": "./images/emperor-language-support.png"
 }
