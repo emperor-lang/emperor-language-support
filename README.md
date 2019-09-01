@@ -1,6 +1,6 @@
-# Emperor Langauge Support
+# Emperor Language Support
 
-This extension provides syntax highlighting for the Emperor langauge.
+This extension provides syntax highlighting for the Emperor language.
 
 ## Features
 
