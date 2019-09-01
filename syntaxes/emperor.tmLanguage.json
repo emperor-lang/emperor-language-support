@@ -26,6 +26,14 @@
 					"match": "\\b(if|else|return|while|repeat|with|switch|for)\\b"
 				},
 				{
+					"name": "storage.modifier.import.emperor",
+					"match": "import"
+				},
+				{
+					"name": "storage.modifier.package.emperor",
+					"match": "module"
+				},
+				{
 					"name": "keyword.control.less.emperor",
 					"match": "@"
 				},
