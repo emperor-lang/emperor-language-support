@@ -23,8 +23,9 @@
 					"match": "\\b(if|else|return|while|repeat|with|switch|for)\\b"
 				},
 				{
-					"name": "meta.type.name",
-					"match": "\\b(int,char,bool,string,real,Any,\\(\\))\\b"
+					"name": "keyword.other",
+					"match": "\\b(int|char|bool|string|real|Any)\\b",
+					"comment": "Getting () to work?"
 				}
 			]
 		},
