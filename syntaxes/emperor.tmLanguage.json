@@ -34,7 +34,7 @@
 					"match": "::"
 				},
 				{
-					"name": "support.type.emperor",
+					"name": "storage.type.emperor",
 					"match": "\\b(int|char|bool|string|real|Any)\\b",
 					"comment": "Getting () to work?"
 				}
