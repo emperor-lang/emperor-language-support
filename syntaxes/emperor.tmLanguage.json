@@ -98,14 +98,23 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.emperor",
-					"match": "\\\\."
+					"match": "\\\\(.|\\n)"
 				}
 			]
 		},
 		"globalImports": {
 			"name": "string.quoted.other.emperor",
-			"begin": "<",
-			"end": ">"
+			"match": "(<[^\\s>][^>]*>)",
+			"captures": {
+				"1": {
+					"patterns": [
+						{
+							"name": "invalid.illegal.emperor",
+							"match": "\\\\"
+						}
+					]
+				}
+			}
 		},
 		"chars": {
 			"name": "string.quoted.single.emperor",
