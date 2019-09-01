@@ -33,5 +33,9 @@
             "start": ":",
             "end": "#"
         }
+    },
+    "indentationRules": {
+        "increaseIndentPattern": ":",
+        "decreaseIndentPattern": "#"
     }
 }
