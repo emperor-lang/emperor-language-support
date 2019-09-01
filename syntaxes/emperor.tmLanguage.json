@@ -51,13 +51,25 @@
 		},
 		"chars": {
 			"name": "string.quoted.single.emperor",
-			"match": "'[^']'",
-			"patterns": [
-				{
-					"name": "constant.character.escape.emperor",
-					"match": "\\\\."
+			"match": "'((\\\\)|([^'\\\\])|(\\\\.))'",
+			"captures": {
+				"2": {
+					"patterns": [
+						{
+							"name": "invalid.illegal",
+							"match": "\\\\"
+						}
+					]
+				},
+				"4": {
+					"patterns": [
+						{
+							"name": "constant.character.escape.emperor",
+							"match": "\\\\."
+						}
+					]
 				}
-			]
+			}
 		}
 	},
 	"scopeName": "source.emperor"
