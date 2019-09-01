@@ -2,7 +2,8 @@ module asdf
 
 import <std> (print)
 
-/* A comment on many lines */
+/* A comment on multiple 
+lines */
 
 main :: int
 main:
@@ -13,7 +14,6 @@ main:
 	#
 	bool t = false
 	@print("x\n")
-	@print(s)
 	char s = 's';
 	return x
 #
