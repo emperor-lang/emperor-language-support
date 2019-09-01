@@ -26,11 +26,15 @@
 					"match": "\\b(if|else|return|while|repeat|with|switch|for)\\b"
 				},
 				{
-					"name": "keyword.control.less",
+					"name": "keyword.control.less.emperor",
 					"match": "@"
 				},
 				{
-					"name": "keyword.other",
+					"name": "keyword.operator.new.emperor",
+					"match": "::"
+				},
+				{
+					"name": "support.type.emperor",
 					"match": "\\b(int|char|bool|string|real|Any)\\b",
 					"comment": "Getting () to work?"
 				}
@@ -39,11 +43,11 @@
 		"constants": {
 			"patterns": [
 				{
-					"name": "constant.language",
+					"name": "constant.language.emperor",
 					"match": "\\b(true|false)\\b"
 				},
 				{
-					"name": "constant.numeric",
+					"name": "constant.numeric.emperor",
 					"match": "\\d+(\\.\\d+)?"
 				}
 			]
@@ -60,7 +64,7 @@
 			]
 		},
 		"globalImports": {
-			"name": "string.quoted.other",
+			"name": "string.quoted.other.emperor",
 			"begin": "<",
 			"end": ">"
 		},
@@ -71,7 +75,7 @@
 				"2": {
 					"patterns": [
 						{
-							"name": "invalid.illegal",
+							"name": "invalid.illegal.emperor",
 							"match": "\\\\"
 						}
 					]
