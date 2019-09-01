@@ -9,6 +9,7 @@ main s:
 	@print(s)
 	char s = 's';
 	char s2 = '\n';
+	return a != b
     return x
 #
 
