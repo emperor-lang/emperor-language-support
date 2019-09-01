@@ -32,5 +32,5 @@
             }
         ]
     },
-    "icon": "./images/emperor-language-support.png"
+    "icon": "https://raw.githubusercontent.com/emperor-lang/emperor-language-support/master/images/emperor-language-support.png"
 }

@@ -6,7 +6,7 @@ This extension provides syntax highlighting for the Emperor language.
 
 An example of syntax highlighting is seen below.
 
-![Syntax highlighting](images/syntax-highlighting.png)
+![Syntax highlighting](https://raw.githubusercontent.com/emperor-lang/emperor-language-support/master/images/syntax-highlighting.png)
 
 ## Requirements
 
