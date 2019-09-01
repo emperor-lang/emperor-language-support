@@ -12,6 +12,9 @@
 			"include": "#constants"
 		},
 		{
+			"include": "#escapedNewlines"
+		},
+		{
 			"include": "#strings"
 		},
 		{
@@ -90,6 +93,10 @@
 					"match": "\\b\\d+(\\.\\d+)?\\b"
 				}
 			]
+		},
+		"escapedNewlines": {
+			"name": "constant.character.escape.emperor",
+			"match": "\\\\\\n"
 		},
 		"strings": {
 			"name": "string.quoted.double.emperor",
