@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#constants"
+		},
+		{
 			"include": "#strings"
 		},
 		{
@@ -30,6 +33,18 @@
 					"name": "keyword.other",
 					"match": "\\b(int|char|bool|string|real|Any)\\b",
 					"comment": "Getting () to work?"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.language",
+					"match": "\\b(true|false)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\d+(\\.\\d+)?"
 				}
 			]
 		},
