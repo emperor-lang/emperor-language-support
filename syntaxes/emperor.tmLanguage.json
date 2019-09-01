@@ -7,19 +7,46 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#globalImports"
+		},
+		{
+			"include": "#chars"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.emperor",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.emperor",
+					"match": "\\b(if|else|return|while|repeat|with|switch|for)\\b"
+				},
+				{
+					"name": "meta.type.name",
+					"match": "\\b(int,char,bool,string,real,Any,\\(\\))\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.emperor",
 			"begin": "\"",
 			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.emperor",
+					"match": "\\\\."
+				}
+			]
+		},
+		"globalImports": {
+			"name": "string.quoted.other",
+			"begin": "<",
+			"end": ">"
+		},
+		"chars": {
+			"name": "string.quoted.single.emperor",
+			"match": "'[^']'",
 			"patterns": [
 				{
 					"name": "constant.character.escape.emperor",
