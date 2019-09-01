@@ -36,11 +36,15 @@
 				},
 				{
 					"name": "storage.modifier.import.emperor",
-					"match": "import"
+					"match": "\\b(import)\\b"
 				},
 				{
 					"name": "storage.modifier.package.emperor",
-					"match": "module"
+					"match": "\\b(module)\\b"
+				},
+				{
+					"name": "keyword.control.blockEnd.emperor",
+					"match": "#"
 				},
 				{
 					"name": "keyword.control.less.emperor",
@@ -83,7 +87,7 @@
 				},
 				{
 					"name": "constant.numeric.emperor",
-					"match": "\\d+(\\.\\d+)?"
+					"match": "\\b\\d+(\\.\\d+)?\\b"
 				}
 			]
 		},
@@ -105,7 +109,7 @@
 		},
 		"chars": {
 			"name": "string.quoted.single.emperor",
-			"match": "'((\\\\)|([^'\\\\])|(\\\\.))'",
+			"match": "\\b'((\\\\)|([^'\\\\])|(\\\\.))'\\b",
 			"captures": {
 				"2": {
 					"patterns": [
