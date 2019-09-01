@@ -46,7 +46,7 @@
 				},
 				{
 					"name": "keyword.operator.new.emperor",
-					"match": "::"
+					"match": "(::|<:|<~)"
 				},
 				{
 					"name": "storage.type.emperor",
