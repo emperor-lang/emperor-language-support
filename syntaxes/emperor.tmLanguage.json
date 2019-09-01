@@ -41,6 +41,10 @@
 					"match": "@"
 				},
 				{
+					"name": "keyword.operator.emperor",
+					"match": "(<-|->)"
+				},
+				{
 					"name": "keyword.operator.new.emperor",
 					"match": "::"
 				},
