@@ -19,6 +19,12 @@
 		},
 		{
 			"include": "#chars"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#className"
 		}
 	],
 	"repository": {
@@ -118,6 +124,14 @@
 					]
 				}
 			}
+		},
+		"variables": {
+			"name": "support.function.emperor",
+			"match": "\\b[a-z][a-zA-Z]*\\b"
+		},
+		"className": {
+			"name": "support.class.emperor",
+			"match": "\\b[A-Z][A-Za-z]*\\b"
 		}
 	},
 	"scopeName": "source.emperor"
