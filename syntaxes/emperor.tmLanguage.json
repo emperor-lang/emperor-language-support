@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "keyword.operator.emperor",
-					"match": "(<-|->)"
+					"match": "(<-|->|;)"
 				},
 				{
 					"name": "keyword.operator.new.emperor",
