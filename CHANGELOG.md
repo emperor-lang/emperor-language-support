@@ -11,4 +11,5 @@ All notable changes to the "emperor-language-support" extension will be document
 - Highlighting for strings, characters and global imports (`<...>`)
 - Highlighting for line and block comments
 - Highlighting for arrows and operators (`+`, `^`, etc.)
+- Auto-completing pairs
 - Folding rules
