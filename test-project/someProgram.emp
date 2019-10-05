@@ -1,11 +1,11 @@
-module asdf
+module main
 
 import <std> (print)
 
 /* A comment on multiple 
 lines */
 
-main :: int
+main |> int
 main:
 	int x = 1
 	// Some comment...
@@ -18,7 +18,7 @@ main:
 	return x
 #
 
-f :: int -> int -> int
+f |> int -> int -> int
 f x y:
 	return x * y
 #
